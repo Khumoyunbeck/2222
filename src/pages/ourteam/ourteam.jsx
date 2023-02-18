@@ -35,7 +35,7 @@ function Ourteam() {
             </div>
             <div className='container mt-2'>
                 <div className='row'>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-3'>
                         <div className='card'>
                             <img src={team0} className="team-img-two" alt='img0' />
                             <div className='card-body text-center'>
@@ -44,15 +44,17 @@ function Ourteam() {
                                     <li className='team_list'><span className="material-symbols-outlined">
                                         work
                                     </span>{tm2[lang]}</li>
-                                    <li className='team_list'><span className="material-symbols-outlined">
-                                        phone
-                                    </span>+998 90 770 10 20
+                                    <li className='team_list'>
+                                        <span className="material-symbols-outlined">
+                                            phone
+                                        </span>
+                                        +998 90 770 10 20
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-3'>
                         <div className='card'>
                             <img src={team5} className="team-img-two" alt='img5' />
                             <div className='card-body text-center'>
@@ -65,7 +67,7 @@ function Ourteam() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-3'>
                         <div className='card'>
                             <img src={team2} className="team-img-two" alt='img1' />
                             <div className='card-body text-center'>
@@ -78,9 +80,7 @@ function Ourteam() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row">
-                    <div className='col-lg-4'>
+                    <div className='col-lg-3'>
                         <div className='card'>
                             <img src={team1} className="team-img-two" alt='img2' />
                             <div className='card-body text-center'>
@@ -93,7 +93,9 @@ function Ourteam() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                </div>
+                <div className="row">
+                    <div className='col-lg-3'>
                         <div className='card'>
                             <img src={team4} className="team-img-two" alt='img3' />
                             <div className='card-body text-center'>
@@ -106,7 +108,7 @@ function Ourteam() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-3'>
                         <div className='card'>
                             <img src={team3} className="team-img-two" alt='img4' />
                             <div className='card-body text-center'>
@@ -119,7 +121,7 @@ function Ourteam() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-3'>
                         <div className='card'>
                             <img src={""} className="team-img-two" alt='img4' />
                             <div className='card-body text-center'>
@@ -135,7 +137,7 @@ function Ourteam() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-3'>
                         <div className='card'>
                             <img src={""} className="team-img-two" alt='img4' />
                             <div className='card-body text-center'>
@@ -146,22 +148,6 @@ function Ourteam() {
                                     </span>{tm12[lang]}</li>
                                     <li className='team_list'>
                                         +998 97 000 85 85
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4'>
-                        <div className='card'>
-                            <img src={""} className="team-img-two" alt='img4' />
-                            <div className='card-body text-center'>
-                                <ul>
-                                    <li>{tm13[lang]}</li>
-                                    <li className='team_list'><span class="material-symbols-outlined">
-                                        work
-                                    </span>{tm14[lang]}</li>
-                                    <li className='team_list'>
-                                        +998 90 915 54 94
                                     </li>
                                 </ul>
                             </div>

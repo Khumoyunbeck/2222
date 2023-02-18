@@ -2,17 +2,17 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import '../../components/style.css'
 import { Language } from '../../lang/Languages'
-import imgAksiya from "../../assets/aksiya.jpg"
+import img from "../../assets/aksiya.jpg"
 
 const Aksiya = () => {
     const { lang } = useSelector(state => state.lang)
 
-    const { aksiya_1, aksiya_2, aksiya_3, aksiya_4, aksiya_5, aksiya_6, aksiya_7, f9 } = Language
+    const { aksiya_1, aksiya_2, aksiya_3, aksiya_4, aksiya_5, aksiya_6, aksiya_7 } = Language;
     return (
         <main>
             <div className='pages-container'>
                 <div className='komissia-wrap'>
-                    <img className='aksiya-img' src={imgAksiya} alt='foto' />
+                    <img className='aksiya-img' src={img} alt='' />
                     <h3>{aksiya_1[lang]}</h3>
                     <ul className='komissia-list'>
                         <li>{aksiya_2[lang]}</li>

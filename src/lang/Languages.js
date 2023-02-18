@@ -185,7 +185,7 @@ export const Language = {
   ab7: ["Bizning imkoniyatlarimiz", "Наши возможности"],
   ab8: [
     "Mijozlarimiz uchun qulay avtomobil kreditlari, minimal foiz stavkalari taklif etamiz. Buning uchun mijoz faqat pasportini taqdim etishi kerak. Hujjatlar bizning salonimizda amalga oshiriladi.",
-    "Для наших клиентов мы предлагаем выгодные автокредиты, минимальные процентные ставки. Для этого клиенту необходимо предоставить лишь паспорт. Оформление документации происходит в нашем салоне.",
+    "Для наших клиентов мы предлагаем выгодные автокредиты, минимальные процентные ставки. Для этого клиенту предоставить лишь только паспорт. Оформление документации происходит в нашем салоне.",
   ],
 
   // Quality-Page
@@ -330,10 +330,7 @@ export const Language = {
     "Bizning mutaxassislarimiz sizning avtomobilingizning barcha afzalliklariga e'tibor berib, potentsial mijozlarga professional maslahat beradilar.",
     "•	Наши специалисты профессионально проконсультируют потенциальных клиентов, уделяя внимание всем преимуществам Вашего автомобиля;",
   ],
-  k4: [
-    "• Bizning mutaxassislarimiz avtomobilingizning barcha afzalliklariga e'tibor qaratgan holda potentsial mijozlarga professional maslahat beradilar;",
-    "•	Наши специалисты профессионально проконсультируют потенциальных клиентов, уделяя внимание всем преимуществам Вашего автомобиля;",
-  ],
+ 
   k5: [
     "• Mashinani ko'rsatishga va to'lovlar va komissiya saytlaridan qo'ng'iroqlar qilishga vaqt sarflashingiz shart emas;",
     "•	Вам не нужно тратить время на показ автомобиля и телефонные звонки перекупов и комиссионных площадок;",
@@ -978,7 +975,7 @@ export const Language = {
     "dastlabki hisob kitob.",
     "расчет является предварительным.",
   ],
-  orderPayment: ["Tolov tartibi", "График платежей"],
+  orderPayment: ["To'lov tartibi", "График платежей"],
   printInfo: [
     "Axborot varaqasini yuklab olish",
     "Скачать информационный лист",

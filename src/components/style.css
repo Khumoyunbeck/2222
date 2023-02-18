@@ -1275,7 +1275,7 @@ button.slider__body-button:active {
 .card {
     background: #fff;
     padding: 40px 30px;
-    /*max-width: 450px;*/
+    max-height: 600px;
     text-align: center;
     position: relative;
     overflow: hidden;
