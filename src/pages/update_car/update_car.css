@@ -1,0 +1,11 @@
+.contain {
+    width: 100%;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.fields {
+    width: 80%;
+    margin-top: 50px;
+}

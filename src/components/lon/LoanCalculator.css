@@ -1,0 +1,102 @@
+.loan-calculator-container {
+  font-size: 18px;
+  width: 600px;
+  text-align: left;
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  transform: translateX(460px);
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-top: 1px solid gray; */
+  padding: 15px;
+}
+
+/* .form-action {
+    text-align: center;
+  } */
+
+.calculate-button {
+  background-color: #f3bb04;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out, background-color 0.2s ease-in-out;
+  width: 350px !important;
+  height: 50px !important;
+  border-radius: 3px !important;
+  transform: translate(-50px, 20px);
+}
+
+.calculate-button:hover {
+  background-color: #6ab04c;
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-input input,
+.form-action input {
+  /* width: 200px; */
+  /* border-radius: 3px; */
+  /* border: 0px; */
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.form-input input {
+  height: 32px;
+}
+
+.form-action input {
+  font-weight: 600;
+  transform: translateX(-72px) translateY(15px);
+  line-height: 40px;
+}
+
+#inpKr {
+  width: 350px;
+  height: 40px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 1px solid #6ab04c;
+  transform: translateY(29px) translateX(-150px);
+}
+.lnDt {
+  transform: translateX(30px);
+  font-size: 15px;
+  font-weight: 900 !important;
+}
+.form-action {
+  transform: translateX(98px);
+}
+.print__button {
+  background-color: #6ab04c;
+  transition: opacity 0.15s ease-in-out, background-color 0.2s ease-in-out;
+  width: 144px !important;
+  height: 50px !important;
+  color: #fff;
+  border-radius: 3px;
+  transform: translate(-20px, 15px);
+}
+.total {
+  display: flex;
+}
+.LoanApp {
+  transform: translateX(50px);
+}
+
+@media only screen and (max-width: 600px) {
+  .LoanApp {
+    transform: translateX(-440px);
+  }
+  .print__button {
+    transform: translateY(75px) translateX(-320px);
+  }
+}

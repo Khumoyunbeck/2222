@@ -1,0 +1,35 @@
+.calData {
+  width: 450px;
+  padding: 25px;
+  box-shadow: 0 0 10px -5px #696969;
+  border-radius: 5px;
+}
+.calData__item h1 {
+  color: #00805f;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: -3px;
+}
+.calData__item span {
+  color: #95847f;
+}
+.calData button {
+  color: #fff;
+  background-color: #00805f;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  .calData {
+    width: 350px;
+    padding: 15px;
+  }
+  .calData__item h1 {
+    color: #00805f;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: -3px;
+  }
+}

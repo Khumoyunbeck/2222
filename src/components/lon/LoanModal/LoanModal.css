@@ -1,0 +1,67 @@
+.loanModal {
+  width: 80%;
+}
+.loanModal__modal {
+  padding-bottom: 50px !important;
+}
+.ant-modal {
+  width: 900px !important;
+  padding-bottom: 50px !important;
+}
+.ant-modal-footer {
+  margin-top: 50px !important;
+}
+.modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal__header button {
+  margin-right: 50px;
+  color: #fff;
+  background-color: #00805f;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.loanTable {
+  width: 100%;
+  overflow: auto;
+}
+table {
+  width: inherit;
+  border-spacing: 0;
+  overflow: auto;
+  /* margin-top: 50px; */
+}
+
+th,
+td {
+  margin: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 5px;
+  border-right: 1px solid #e6e6e6;
+}
+@media (max-width: 576px) {
+  .loanModal {
+    width: 400px;
+    overflow: auto;
+  }
+  .modal__header button {
+    margin-right: 20px;
+    color: #fff;
+    background-color: #00805f;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 160px;
+  }
+  table {
+    width: 350px;
+
+    border-spacing: 0;
+    overflow: auto;
+    /* margin-top: 50px; */
+  }
+  .loanModal__modal {
+    overflow: hidden;
+  }
+}

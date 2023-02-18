@@ -1,0 +1,49 @@
+body {
+    padding: 0 !important;
+  }
+  
+  .my__sm__icon {
+    width: calc(100% - 2rem);
+    margin: 1rem 1rem 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .my__sm__icon span{
+      z-index: 10;
+      cursor: pointer;
+  
+  }
+  
+  .my__sm__main{
+      position: absolute;
+      width: 100%;
+      background-color: black;
+      height: 100vh;
+      z-index: 8;
+      margin: auto;
+      display: flex;
+  }
+  
+  .my__sm__main .metismenu{
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .my__sm__main #sidebar-menu > ul > li > a{
+      font-size: 25px;
+      color: #fff;
+  
+  }
+  @media(min-width:0) and (max-width:700.9px){
+    .my-auto{
+        margin-bottom: 1rem !important;
+    }
+    .rounded{
+        margin-top: 1rem !important;
+    }
+  }

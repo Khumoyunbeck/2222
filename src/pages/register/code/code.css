@@ -1,0 +1,22 @@
+.codePage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sm {
+    font-size: 20px;
+    color: black;
+}
+.formSpec{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9F9F9;
+}

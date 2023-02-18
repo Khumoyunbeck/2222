@@ -1,0 +1,82 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ckeditor/ckeditor5-build-classic": "^33.0.0",
+    "@ckeditor/ckeditor5-react": "^4.0.1",
+    "@googlemaps/react-wrapper": "^1.1.32",
+    "@react-pdf/renderer": "^3.1.4",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^3.14.0",
+    "antd": "^4.21.7",
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "fontawesome": "^5.6.3",
+    "hoist-non-react-statics": "^3.3.2",
+    "html-react-parser": "^1.4.10",
+    "html-to-draftjs": "^1.5.0",
+    "http-proxy-middleware": "^2.0.4",
+    "jspdf": "^2.5.1",
+    "loanjs": "^1.0.8",
+    "particles-bg": "^2.5.5",
+    "pdfmake": "^0.2.7",
+    "react": "^18.0.0",
+    "react-code-input": "^3.10.1",
+    "react-doc-viewer": "^0.1.5",
+    "react-dom": "^18.0.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-excel-renderer": "^1.1.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.32.2",
+    "react-icons": "^4.7.1",
+    "react-number-format": "^4.9.4",
+    "react-pdf": "^6.2.2",
+    "react-redux": "^8.0.2",
+    "react-responsive": "^9.0.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.0",
+    "react-to-pdf": "^0.0.14",
+    "react-to-print": "^2.14.11",
+    "react-toastify": "^9.0.2",
+    "reactstrap": "^9.1.2",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.1.6",
+    "tinymce": "^6.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "html-loader": "^4.1.0"
+  }
+}
